@@ -18,7 +18,7 @@ const LandingPage = () => {
         style={{width:'100%'}}
         initial={{ opacity: 0, x: 50 }}
         whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.5, delay: 0.8 }} onClick={() => navigate("/game")}>startGame</motion.button>
+        transition={{ duration: 0.5, delay: 0.8 }} onClick={() => navigate("/game")}>Start Game</motion.button>
         <motion.div
         style={{width:'100%'}}
         initial={{ opacity: 0, y: 50 }}
